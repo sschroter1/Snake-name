@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+#nameInputContainer {
+    margin-top: 20px;
+}
+
+#nameInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Leaderboard styles */
+#leaderboard {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+.leaderboard-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
